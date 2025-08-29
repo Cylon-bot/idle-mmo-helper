@@ -2,7 +2,9 @@ from typing import Optional
 import requests
 
 from api_connector.enum import HistoryType
-from api_connector.misc_objects import Item, ItemDetails, ItemMarketHistory, Pet
+from api_connector.objects.battle import Pet
+from api_connector.objects.item import Item, ItemDetails
+from api_connector.objects.market import ItemMarketHistory
 from misc import JSON
 
 
