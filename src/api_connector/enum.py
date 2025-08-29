@@ -1,0 +1,43 @@
+from enum import Enum
+
+class HistoryType(Enum):
+    Listings = "listings"
+    Orders = "orders"
+    
+class ItemType(Enum):
+    Sword = "SWORD"
+    Dagger = "DAGGER"
+    Bow = "BOW"
+    Special = "SPECIAL"
+    Chestplate = "CHESTPLATE"
+    Gauntlets = "GAUNTLETS"
+    Shield = "SHIELD"
+    Greaves = "GREAVES"
+    Boots = "BOOTS"
+    Helmet = "HELMET"
+    Log = "LOG"
+    Fish = "FISH"
+    CraftingMaterial = "CRAFTING_MATERIAL"
+    Food = "FOOD"
+    PetEgg = "PET_EGG"
+    MetalBar = "METAL_BAR"
+    Potion = "POTION"
+    EssenceCrystal = "ESSENCE_CRYSTAL"
+    Ore = "ORE"
+    Recipe = "RECIPE"
+    CampaignItem = "CAMPAIGN_ITEM"
+    FishingRod = "FISHING_ROD"
+    Pickaxe = "PICKAXE"
+    FellingAxe = "FELLING_AXE"
+    Tokens = "TOKENS"
+    Collectable = "COLLECTABLE"
+    UpgradeStone = "UPGRADE_STONE"
+    
+class Quality(Enum):
+    Standard = "STANDARD"
+    Refined = "REFINED"
+    Premium = "PREMIUM"
+    Epic = "EPIC"
+    Legendary = "LEGENDARY"
+    Mythic = "MYTHIC"
+    Unique = "UNIQUE"
